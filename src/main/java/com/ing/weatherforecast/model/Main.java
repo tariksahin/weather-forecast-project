@@ -5,8 +5,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Main {
 
-    private double temp_max; // Assuming this field represents maximum temperature
-    private double feels_like; // Adding "feels like" temperature field
+    private double temp_max;
+    private double feels_like;
     private int humidity;
 
     public double getTemp_max() {

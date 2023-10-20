@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition
 public class SwaggerConfig {
+
     @Value("${swagger.api.title}")
     private String title;
 
@@ -21,5 +22,4 @@ public class SwaggerConfig {
     public OpenAPI customOpenApi(){
         return new OpenAPI().info(new Info().title(title).description(description));
     }
-
 }

@@ -45,7 +45,15 @@ The project provides the following endpoint for retrieving weather forecasts:
 - Example URL:
   - `GET http://localhost:8080/api/v1/weather/Istanbul`
   
-  This endpoint returns the weather forecast for the specified city.
+ - Description: This endpoint returns the weather forecast for the specified city, including the following information:
+     - **City Name**
+     - **Date**
+     - **Maximum Temperature (Kelvin)**
+     - **Feels Like Temperature (Kelvin)**
+     - **Humidity**
+     - **Maximum Temperature (Celsius)**
+     - **Feels Like Temperature (Celsius)**
+
 
 ## Usage
 
